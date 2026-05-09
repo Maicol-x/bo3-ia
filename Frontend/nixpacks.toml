@@ -2,7 +2,7 @@
 cmds = ["npm install", "npm run build"]
 
 [phases.start]
-cmds = ["npm run preview -- --host 0.0.0.0 --port 3000"]
+cmds = ["npm run preview -- --host 0.0.0.0 --port $PORT"]
 
 [variables]
 NODE_ENV = "production"
