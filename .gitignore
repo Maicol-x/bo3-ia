@@ -1,0 +1,27 @@
+# Dependencias
+node_modules/
+
+# Builds
+dist/
+dist-ssr/
+
+# Variables de entorno — NUNCA subir al repo
+.env
+.env.local
+.env.*.local
+Backend/.env
+Frontend/.env
+Frontend/.env.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+
+# PostgreSQL
+*.sql.bak
