@@ -37,12 +37,14 @@ export default function AvatarPickerModal({ open, onClose }: Props) {
     <Dialog
       open={open}
       onClose={onClose}
-      PaperProps={{
-        sx: {
-          bgcolor: '#1a0e2a',
-          border: '1px solid rgba(186,104,200,0.35)',
-          borderRadius: 2,
-          minWidth: 340,
+      slotProps={{
+        paper: {
+          sx: {
+            bgcolor: '#1a0e2a',
+            border: '1px solid rgba(186,104,200,0.35)',
+            borderRadius: 2,
+            minWidth: 340,
+          },
         },
       }}
     >
